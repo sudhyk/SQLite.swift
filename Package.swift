@@ -4,10 +4,10 @@ import PackageDescription
 let package = Package(
     name: "SQLite.swift",
     platforms: [
-        .iOS(.v11),
-        .macOS(.v10_13),
-        .watchOS(.v4),
-        .tvOS(.v11),
+        .iOS(.v15),
+        .macOS(.v10_15),
+        .watchOS(.v7),
+        .tvOS(.v18),
         .visionOS(.v1)
     ],
     products: [
